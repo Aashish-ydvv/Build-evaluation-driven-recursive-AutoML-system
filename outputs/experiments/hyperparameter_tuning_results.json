@@ -1,0 +1,140 @@
+{
+    "agent": "HyperparameterTuningAgent",
+    "model": "Random Forest",
+    "current_champion_rmse": 0.5199360220101668,
+    "best_parameters": {
+        "max_depth": null,
+        "max_features": 1.0,
+        "min_samples_leaf": 1,
+        "n_estimators": 200
+    },
+    "best_rmse": 0.519936022010167,
+    "best_rmse_standard_deviation": 0.028396146400572357,
+    "improvement_percent": -4.2706139895167614e-14,
+    "required_improvement_percent": 0.5,
+    "promoted": false,
+    "decision": "Rejected because the tuned model did not pass the minimum improvement threshold.",
+    "protected_test_used": false,
+    "results": [
+        {
+            "experiment_number": 1,
+            "parameters": {
+                "max_depth": null,
+                "max_features": 1.0,
+                "min_samples_leaf": 1,
+                "n_estimators": 200
+            },
+            "metrics": {
+                "MAE_mean": 0.34409782020525187,
+                "RMSE_mean": 0.519936022010167,
+                "RMSE_std": 0.028396146400572357,
+                "R2_mean": 0.9972851883787421
+            }
+        },
+        {
+            "experiment_number": 2,
+            "parameters": {
+                "max_depth": null,
+                "max_features": 1.0,
+                "min_samples_leaf": 2,
+                "n_estimators": 200
+            },
+            "metrics": {
+                "MAE_mean": 0.3794351560606419,
+                "RMSE_mean": 0.5831480446203676,
+                "RMSE_std": 0.026455116732652145,
+                "R2_mean": 0.9966009794081958
+            }
+        },
+        {
+            "experiment_number": 3,
+            "parameters": {
+                "max_depth": null,
+                "max_features": "sqrt",
+                "min_samples_leaf": 1,
+                "n_estimators": 200
+            },
+            "metrics": {
+                "MAE_mean": 0.48784986959184745,
+                "RMSE_mean": 0.6526178262071595,
+                "RMSE_std": 0.042578390350123715,
+                "R2_mean": 0.9957261909166151
+            }
+        },
+        {
+            "experiment_number": 4,
+            "parameters": {
+                "max_depth": null,
+                "max_features": "sqrt",
+                "min_samples_leaf": 2,
+                "n_estimators": 200
+            },
+            "metrics": {
+                "MAE_mean": 0.6189316853046224,
+                "RMSE_mean": 0.861077234524202,
+                "RMSE_std": 0.07097208737045545,
+                "R2_mean": 0.9925450562920404
+            }
+        },
+        {
+            "experiment_number": 5,
+            "parameters": {
+                "max_depth": 12,
+                "max_features": 1.0,
+                "min_samples_leaf": 1,
+                "n_estimators": 200
+            },
+            "metrics": {
+                "MAE_mean": 0.3448511303843553,
+                "RMSE_mean": 0.5211944097898547,
+                "RMSE_std": 0.02750386720794967,
+                "R2_mean": 0.9972726084068099
+            }
+        },
+        {
+            "experiment_number": 6,
+            "parameters": {
+                "max_depth": 12,
+                "max_features": 1.0,
+                "min_samples_leaf": 2,
+                "n_estimators": 200
+            },
+            "metrics": {
+                "MAE_mean": 0.3794261894843095,
+                "RMSE_mean": 0.583135104614485,
+                "RMSE_std": 0.026455648485635683,
+                "R2_mean": 0.9966011318576513
+            }
+        },
+        {
+            "experiment_number": 7,
+            "parameters": {
+                "max_depth": 12,
+                "max_features": "sqrt",
+                "min_samples_leaf": 1,
+                "n_estimators": 200
+            },
+            "metrics": {
+                "MAE_mean": 0.48795327041719055,
+                "RMSE_mean": 0.6533622219953541,
+                "RMSE_std": 0.040993520682901324,
+                "R2_mean": 0.9957233304843003
+            }
+        },
+        {
+            "experiment_number": 8,
+            "parameters": {
+                "max_depth": 12,
+                "max_features": "sqrt",
+                "min_samples_leaf": 2,
+                "n_estimators": 200
+            },
+            "metrics": {
+                "MAE_mean": 0.61914868116931,
+                "RMSE_mean": 0.8636994584664743,
+                "RMSE_std": 0.07232681138456477,
+                "R2_mean": 0.9924969002978544
+            }
+        }
+    ]
+}

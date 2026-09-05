@@ -1,0 +1,21 @@
+{
+    "evaluation_type": "one_time_protected_test_evaluation",
+    "champion": "Extra Trees - Tuned",
+    "champion_parameters": {
+        "max_depth": 12,
+        "max_features": 1.0,
+        "min_samples_leaf": 2,
+        "n_estimators": 400
+    },
+    "cross_validation_rmse": 0.4830673192937683,
+    "development_rows": 614,
+    "test_rows": 154,
+    "test_evaluation_count": 1,
+    "metrics": {
+        "MAE": 0.3290911657390237,
+        "RMSE": 0.48322552325674123,
+        "R2": 0.9977597475877644
+    },
+    "model_path": "C:\\Users\\aashi\\Desktop\\recursive-automl-learning\\outputs\\models\\extra_trees_final.joblib",
+    "predictions_path": "C:\\Users\\aashi\\Desktop\\recursive-automl-learning\\outputs\\final_results\\final_test_predictions.csv"
+}

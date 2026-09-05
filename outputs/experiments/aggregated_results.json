@@ -1,0 +1,80 @@
+{
+    "agent": "ResultsAggregationAgent",
+    "current_champion": "Extra Trees - Tuned",
+    "current_champion_rmse": 0.4830673192937683,
+    "champion_source": "HyperparameterTuningAgent",
+    "protected_test_used": true,
+    "experiment_count": 5,
+    "experiment_history": [
+        {
+            "iteration": 0,
+            "agent": "ModelBenchmarkAgent",
+            "candidate": "Random Forest",
+            "rmse": 0.5199360220101668,
+            "decision": "Promoted"
+        },
+        {
+            "iteration": 1,
+            "agent": "FeatureEngineeringAgent",
+            "candidate": "Random Forest - Domain Features",
+            "rmse": 0.5194685201158118,
+            "improvement_percent": 0.08991527314216724,
+            "decision": "Rejected",
+            "reason": "Rejected because the improvement did not pass the required threshold."
+        },
+        {
+            "iteration": 2,
+            "agent": "HyperparameterTuningAgent",
+            "candidate": "Random Forest - Tuned",
+            "rmse": 0.519936022010167,
+            "improvement_percent": -4.2706139895167614e-14,
+            "parameters": {
+                "max_depth": null,
+                "max_features": 1.0,
+                "min_samples_leaf": 1,
+                "n_estimators": 200
+            },
+            "decision": "Rejected",
+            "reason": "Rejected because the tuned model did not pass the minimum improvement threshold."
+        },
+        {
+            "iteration": 3,
+            "agent": "AlternativeModelAgent",
+            "candidate": "Extra Trees",
+            "rmse": 0.48807029868783974,
+            "rmse_standard_deviation": 0.024325385463345055,
+            "improvement_percent": 6.128777767527697,
+            "decision": "Promoted",
+            "reason": "Promoted because the alternative model passed the improvement threshold."
+        },
+        {
+            "iteration": 4,
+            "agent": "HyperparameterTuningAgent",
+            "candidate": "Extra Trees - Tuned",
+            "rmse": 0.4830673192937683,
+            "rmse_standard_deviation": 0.03779605556105191,
+            "improvement_percent": 1.0250530318115647,
+            "parameters": {
+                "max_depth": 12,
+                "max_features": 1.0,
+                "min_samples_leaf": 2,
+                "n_estimators": 400
+            },
+            "decision": "Promoted",
+            "reason": "Promoted because the tuned model passed the minimum improvement threshold."
+        }
+    ],
+    "current_champion_parameters": {
+        "max_depth": 12,
+        "max_features": 1.0,
+        "min_samples_leaf": 2,
+        "n_estimators": 400
+    },
+    "final_test_evaluations": 1,
+    "final_test_metrics": {
+        "MAE": 0.3290911657390237,
+        "RMSE": 0.48322552325674123,
+        "R2": 0.9977597475877644
+    },
+    "final_model_path": "C:\\Users\\aashi\\Desktop\\recursive-automl-learning\\outputs\\models\\extra_trees_final.joblib"
+}

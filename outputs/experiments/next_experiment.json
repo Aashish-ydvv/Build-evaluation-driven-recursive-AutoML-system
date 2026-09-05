@@ -1,0 +1,6 @@
+{
+    "experiment_type": "stop_and_review",
+    "model": "Extra Trees - Tuned",
+    "reason": "The approved model comparison and Extra Trees tuning experiments are complete. Human review is required before evaluating the final test set.",
+    "protected_test_access": false
+}

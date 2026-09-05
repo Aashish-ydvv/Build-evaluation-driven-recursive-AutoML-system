@@ -1,0 +1,28 @@
+{
+    "agent": "AlternativeModelAgent",
+    "previous_champion_rmse": 0.5199360220101668,
+    "best_model": "Extra Trees",
+    "best_rmse": 0.48807029868783974,
+    "best_rmse_standard_deviation": 0.024325385463345055,
+    "improvement_percent": 6.128777767527697,
+    "required_improvement_percent": 0.5,
+    "promoted": true,
+    "decision": "Promoted because the alternative model passed the improvement threshold.",
+    "protected_test_used": false,
+    "results": {
+        "Extra Trees": {
+            "MAE_mean": 0.3224815349415806,
+            "RMSE_mean": 0.48807029868783974,
+            "RMSE_std": 0.024325385463345055,
+            "R2_mean": 0.9976195285912282,
+            "improvement_percent": 6.128777767527697
+        },
+        "Gradient Boosting": {
+            "MAE_mean": 0.3528376958949211,
+            "RMSE_mean": 0.49871039289082086,
+            "RMSE_std": 0.04430948027372291,
+            "R2_mean": 0.9974901399929735,
+            "improvement_percent": 4.082354024497816
+        }
+    }
+}

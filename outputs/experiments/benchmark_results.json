@@ -1,0 +1,32 @@
+{
+    "agent": "ModelBenchmarkAgent",
+    "primary_metric": "RMSE_mean",
+    "lower_is_better": true,
+    "champion": "Random Forest",
+    "results": {
+        "Mean Baseline": {
+            "MAE_mean": 9.118836647554147,
+            "RMSE_mean": 10.060355979145722,
+            "RMSE_std": 0.2633072969447126,
+            "R2_mean": -0.010596829235618044
+        },
+        "Linear Regression": {
+            "MAE_mean": 2.061820875587211,
+            "RMSE_mean": 2.9158259743818387,
+            "RMSE_std": 0.1777786664527147,
+            "R2_mean": 0.9146075356576219
+        },
+        "Decision Tree": {
+            "MAE_mean": 0.6903029257725656,
+            "RMSE_mean": 1.0378460404981562,
+            "RMSE_std": 0.05692524379439759,
+            "R2_mean": 0.9892118976818353
+        },
+        "Random Forest": {
+            "MAE_mean": 0.34409782020525176,
+            "RMSE_mean": 0.5199360220101668,
+            "RMSE_std": 0.028396146400572305,
+            "R2_mean": 0.9972851883787421
+        }
+    }
+}

@@ -1,0 +1,21 @@
+# Local Python environment
+.venv/
+venv/
+
+# Python cache and test cache
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Notebook and editor files
+.ipynb_checkpoints/
+.vscode/
+
+# Operating-system files
+.DS_Store
+Thumbs.db
+
+# Reproducible but bulky/sensitive generated artifacts
+outputs/models/
+outputs/final_results/final_test_predictions.csv
+
