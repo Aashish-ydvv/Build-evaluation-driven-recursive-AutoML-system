@@ -14,8 +14,3 @@ __pycache__/
 # Operating-system files
 .DS_Store
 Thumbs.db
-
-# Reproducible but bulky/sensitive generated artifacts
-outputs/models/
-outputs/final_results/final_test_predictions.csv
-
