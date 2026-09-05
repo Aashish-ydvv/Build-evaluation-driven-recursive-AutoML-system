@@ -152,3 +152,8 @@ pytest -q
 - It is small and does not include climate, occupancy, material, or equipment-schedule variables.
 - Impurity-based feature importance can be affected by correlated features.
 - The results do not establish causal relationships and do not replace professional energy simulation.
+
+## Live Demo
+
+Try the deployed application:  
+[Building Heating Load Predictor](https://build-evaluation-driven-recursive-automl-system-r5kqsupzwn387x.streamlit.app/)
